@@ -1,17 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>learning php</title>
-</head>
-<body>
-<form action="includes/signup.inc.php" method="POST">
-    <input type="text" name="first" placeholder="Firstname"><br><br>
-    <input type="text" name="last" placeholder="Lastname"><br><br>
-    <input type="text" name="email" placeholder="E-mail"><br><br>
-    <input type="text" name="uid" placeholder="Username"><br><br>
-    <input type="password" name="pwd" placeholder="Password"><br><br>
-    <button type="submit" name="submit">Sign Up</button>
-</form>
-</body>
-</html>
+            <?php
+                include_once 'header.php';
+            ?>
+            <main>
+                <section class="intro">
+                    <h1>This is an introduction</h1>
+                    <p>Here is an important paragraph that explains the purpose of the website</p>
+                </section>
+                <section class="categories">
+                    <h2>Basic Catagories</h2>
+                    <div class="items">
+                        <div>Item 1</div>
+                        <div>Item 2</div>
+                        <div>Item 3</div>
+                    </div>
+                </section>
+            </main>
+            <?php
+                include_once 'footer.php';
+            ?>
